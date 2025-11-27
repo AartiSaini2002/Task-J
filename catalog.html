@@ -233,16 +233,56 @@
   </div>
 </section>
 
-<!-- Video Section -->
-<section class="video-section">
-  <h2>Product Highlights</h2>
-  <video controls preload="metadata" poster="videos/video-poster.jpg">
-    <source src="videos/video1.mp4" type="video/mp4">
-    <source src="videos/video1.webm" type="video/webm">
-    <track src="captions.vtt" kind="captions" srclang="en" label="English">
-    Your browser does not support the video tag.
-  </video>
+
+<!-- Example Image Section -->
+<section class="catalog-intro" aria-labelledby="example-title">
+  <h2 id="example-title">Scroll more to see Highlights</h2>
+  <figure>
+    <a href="images/example.jpg" target="_blank"> <img src="images/example.jpg" 
+         alt="Example image for assignment requirement" 
+         width="300" height="200" 
+         loading="lazy"></a>
+    <figcaption>Perfect view for bridal shoot</figcaption>
+  </figure>
 </section>
+
+<!-- Video Section -->
+<section class="catalog-grid">
+  <h2>Product Highlights</h2>
+
+  <div class="cards">
+
+    <article class="card">
+      <video controls style="width:100%; height:auto; border-radius:8px;">
+        <source src="videos/video1.mp4" type="video/mp4">
+      </video>
+      <div class="card-content">
+        <h3>Perfect Look</h3>
+        <p>Soul full of glitter, heart full of gold</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls style="width:100%; height:auto; border-radius:8px;">
+        <source src="videos/video2.mp4" type="video/mp4">
+      </video>
+      <div class="card-content">
+        <h3>Highlight</h3>
+        <p>Confidence is the best outfit</p>
+      </div>
+    </article>
+    <article class="card">
+      <video controls style="width:100%; height:auto; border-radius:8px;">
+        <source src="videos/video3.mp4" type="video/mp4">
+      </video>
+      <div class="card-content">
+        <h3>Bridal Highlight</h3>
+        <p>Elegance is the only beauty that never fades</p>
+      </div>
+    </article>
+  </div>
+</section>
+
 
 <!-- FOOTER -->
 <footer id="contact">
